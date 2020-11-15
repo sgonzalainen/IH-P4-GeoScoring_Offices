@@ -1,4 +1,5 @@
-from random import choice
+import random
+
 
 class Stakeholder():
 
@@ -99,9 +100,10 @@ class Dog(Stakeholder):
 def assign_child(stakeholders, num):
 
     parents = 0
+    random.seed(20)
 
     while parents < num:
-        pick = choice(stakeholders)
+        pick = random.choice(stakeholders)
 
         cond1 = issubclass(pick.__class__,Employee)
  
@@ -114,6 +116,86 @@ def assign_child(stakeholders, num):
             pass
 
     return stakeholders
+
+
+
+def get_score(stakeholders, param):
+    score = 0
+    for stakeholder in stakeholders:
+        
+        if param == 'design':
+            cond = stakeholder.like_design
+        elif param == 'school':
+            cond = stakeholder.has_child
+        elif param == 'tech':
+            cond = stakeholder.like_tech
+        elif param == 'starbucks':
+            cond = stakeholder.like_starbucks
+        elif param == 'airport':
+            cond = stakeholder.need_travel
+        elif param == 'club':
+            cond = stakeholder.like_party
+        elif param == 'vegan':
+            cond = stakeholder.is_vegan
+        elif param == 'basket':
+            cond = stakeholder.like_basket
+        elif param == 'dog':
+            cond = stakeholder.need_groomer
+            
+        else:
+            pass
+
+        if cond:
+            score += stakeholder.score
+        else:
+            pass
+        
+    return score
+
+
+def create_stakeholders():
+    '''
+
+
+    '''
+
+    stakeholders = []
+    number_stakeholders ={'Ceo': 1, 'Executive': 10, 'Account': 20, 'Developer': 15, 'Engineer': 20, 'Designer': 20, 'Bluecollar': 1, 'Dog': 1}
+
+    for key, value in number_stakeholders.items():
+        for _ in range(value):
+            
+            if key == 'Ceo':
+                tmp = Ceo()
+            elif key == 'Executive':
+                tmp = Executive()
+            elif key == 'Account':
+                tmp = Account()
+            elif key == 'Developer':
+                tmp = Developer()
+            elif key == 'Engineer':
+                tmp = Engineer()
+            elif key == 'Designer':
+                tmp = Designer()
+            elif key == 'Bluecollar':
+                tmp = Bluecollar()
+            elif key == 'Dog':
+                tmp = Dog()
+    
+            stakeholders.append(tmp)
+
+    return stakeholders
+
+
+
+
+
+
+
+
+
+
+
 
 
 

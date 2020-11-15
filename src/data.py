@@ -1,5 +1,6 @@
 
 import src.query as query
+import src.stakeholders as sh
 
 def read_foursquare_response(data, type):
 
@@ -149,6 +150,44 @@ def get_travel_time(offices, des_lat, des_lon, google_api, time):
 
         except StopIteration:
             break
+
+
+
+def score_travel(row, ideal_car, ideal_transport, red, stakeholders):
+
+    '''
+
+
+
+    '''
+
+    
+    car_time = row['driving']
+    transport_time = row['transit']
+    
+    score_total = sh.get_score(stakeholders, 'airport')
+    
+    penalty = 0
+    
+    if car_time > ideal_car:
+        penalty += (car_time - ideal_car) * red
+   
+    else:
+        pass
+    
+    if transport_time > ideal_transport:
+        penalty += (transport_time - ideal_transport) * red
+ 
+    else:
+        pass
+
+    
+
+    score = score_total * (1- penalty)
+    
+    
+    
+    return score
 
 
 
