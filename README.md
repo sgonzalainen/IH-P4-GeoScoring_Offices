@@ -125,9 +125,3 @@ Python3 on Ubuntu 20.04
 
 
 
-
-
-<iframe src='output/competitor_map.html' width=100% height=100%></iframe>
-
-
-

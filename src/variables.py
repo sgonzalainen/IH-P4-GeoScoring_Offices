@@ -1,4 +1,7 @@
 
+###################### CONFIG VARIABLES #####################
+
+
 class Variables():
 
     CITY_LAT = 60.168377

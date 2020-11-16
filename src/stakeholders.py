@@ -2,6 +2,10 @@ import random
 import src.data as dt
 from src.variables import Variables as Var
 
+###################### CLASSSES AND FUNCTION RELATED TO QUERIES #####################
+
+
+###################### CLASSSES  #####################
 
 class Stakeholder():
 
@@ -98,8 +102,19 @@ class Dog(Stakeholder):
         super().__init__()
 
 
+###################### FUNCTIONS #####################
     
 def assign_child(stakeholders, num):
+    '''
+    Randomly picks a person from list of objects and assigns attribute .haschild to True
+    Args:
+        stakeholders(list): list of Objects
+        num(int): number of employees to have kid
+    
+    Returns:
+        stakeholders(list): updated list of Objects
+
+    '''
 
     parents = 0
     random.seed(20)
@@ -122,6 +137,16 @@ def assign_child(stakeholders, num):
 
 
 def get_score(stakeholders, param):
+    '''
+    Returns value of score for a given requirement
+    Args:
+        stakeholders(list): list of Objects
+        param(str): string key to a requirement
+
+    Returns:
+        score(int): total value of that requirement based on stakeholders
+
+    '''
     score = 0
     for stakeholder in stakeholders:
         
@@ -156,12 +181,18 @@ def get_score(stakeholders, param):
 
 
 def create_stakeholders():
+    
     '''
+    Creates objects based on repo description 
+    Args:
 
+    Returns:
+        stakeholders(list): list of Objects
 
     '''
 
     stakeholders = []
+    #this could be parametrized in future
     number_stakeholders ={'Ceo': 1, 'Executive': 10, 'Account': 20, 'Developer': 15, 'Engineer': 20, 'Designer': 20, 'Bluecollar': 1, 'Dog': 1}
 
     for key, value in number_stakeholders.items():
@@ -193,9 +224,16 @@ def create_stakeholders():
 
 def get_all_scores(df, stakeholders):
     '''
+    Based on fulfillment of requirement for each candidate given in a Dataframe, assigns scores for each requirement to each candidate
+    Args:
+        df(DataFrame): dataframe with number of matches per requirement
+        stakeholders(list): list of Objects
+    
+    Returns:
+        df_score(DataFrame): dataframe with all scores per requirement per candidate and total score
+
 
     '''
-
 
     df_score = df[['_id','name', 'location']].copy()
 

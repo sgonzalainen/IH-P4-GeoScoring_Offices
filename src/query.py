@@ -2,14 +2,26 @@
 import requests
 from datetime import datetime
 
-
-
-
+###################### FUNCTIONS RELATED TO QUERIES #####################
 
 
 def foursquare_query(lat, lon, cat, radius, client_id, client_secret, limit = 100):
+    '''
+    Performs query in foursquare Places API related to a location and a category
+    Args:
+        lat(float): Latitude
+        lon (float): Longitude
+        cat(str): category code by API
+        radius(int): radius for location in meters
+        client_id(str): API token
+        client_secret(str): API token2
+        limit(int): number of returns, by defaul maximum of API, i.e. 100
 
+    Returns:
+        resp(json): request response
 
+    '''
+    #acc. to API
     foursquare_cat_ids = {'vegan_rest': '4bf58dd8d48988d1d3941735',
              'tech_startup': '4bf58dd8d48988d125941735',
              'coworking_space': '4bf58dd8d48988d174941735',
@@ -47,6 +59,19 @@ def foursquare_query(lat, lon, cat, radius, client_id, client_secret, limit = 10
 
 
 def google_places(text, key, radius, lat, lon):
+    '''
+    Performs query in Google Places API related to a location and a text
+    Args:
+        text(str): search text
+        key(str): API token
+        radius(int): radius for location in meters
+        lat(float): Latitude
+        lon (float): Longitude
+
+    Returns:
+        resp(json): request response
+
+    '''
 
     endpoint = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
     params = { "key" : key,
@@ -65,6 +90,21 @@ def google_places(text, key, radius, lat, lon):
 
 
 def google_maps_travel(key, ori_lat, ori_lon, des_lat, des_lon, mode, time):
+    '''
+    Performs query in Google Routes API related to a origin and destination
+    Args:
+        key(str): API token
+        ori_lat(float): latitude origin point
+        ori_lon(float): longitude origin point
+        des_lat(float): latitud destination point
+        des_lon(float): longitude destination point
+        mode (str): 'driving' or 'transit'
+        time(int): arrival time in seconds since 1stJan 1970.
+
+    Returns:
+        resp(json): request response
+
+    '''
 
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json'
 
@@ -88,6 +128,18 @@ def google_maps_travel(key, ori_lat, ori_lon, des_lat, des_lon, mode, time):
 
 
 def get_time_for_google(year, month, day, hour):
+    '''
+    Given a date, returns date in seconds since 1stJan 1970
+    Args:
+        year(int): year
+        month(int): month
+        day(int): day
+        hour(int): hour
+
+    Returns:
+        date_sec(int): seconds since 1stJan 1970 UTM
+
+    '''
     date = datetime.now()
     date = date.replace(minute = 0, hour = 12, second = 0, year = 2020, month = 11, day = 17)
     date_sec = int(date.timestamp())
@@ -96,6 +148,15 @@ def get_time_for_google(year, month, day, hour):
 
 
 def extract_duration_travel(data):
+    '''
+    Given a google route json response, returns total time of travel
+    Args:
+        data(json): response data from API
+
+    Returns:
+        time(float): total travel time in minutes
+
+    '''
 
     seconds = 0
     for route in data['routes']:
