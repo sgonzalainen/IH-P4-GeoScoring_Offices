@@ -72,7 +72,7 @@ The rules for scoring is  as follows:
     * At a max distance of 500 m, there must be at least one night club.
     * At a max distance of 300 m, there must be at least one vegan restaurant.
     * At a max distance of 10 km, there must be at least one basketball stadium.
-    * At a max distance of 10 km, there must be at least one pet groomer.
+    * At a max distance of 800 m, there must be at least one pet groomer.
     * At a max distance of 300 m, there must be at least one Starbucks.
 
 * Each stakeholder is an **Object class**. Employees which are parents are randomly choice.
