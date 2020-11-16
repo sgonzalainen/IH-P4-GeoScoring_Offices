@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aaa644b54b944f5488457b4ab962da3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aaa644b54b944f5488457b4ab962da3b" ></div>
+        
+</body>
+<script>    
+    
+            var map_aaa644b54b944f5488457b4ab962da3b = L.map(
+                "map_aaa644b54b944f5488457b4ab962da3b",
+                {
+                    center: [60.168377, 24.93582],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_79f9020ac64440ecaf6ad5e3a6338aad = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var marker_1b56d6fa20114508b9673269de4ad1e0 = L.marker(
+                [60.169746, 24.948465],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_8b371c91d1e44dc9855eae5194569ec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1b56d6fa20114508b9673269de4ad1e0.setIcon(icon_8b371c91d1e44dc9855eae5194569ec1);
+        
+    
+            marker_1b56d6fa20114508b9673269de4ad1e0.bindTooltip(
+                `<div>
+                     Tiedekulma / Think Corner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4c363f385ff4ea9808155a425fcfe47 = L.marker(
+                [60.16783980586258, 24.95028953736944],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_429d34a6229f4a75b98d1f3c0d590d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b4c363f385ff4ea9808155a425fcfe47.setIcon(icon_429d34a6229f4a75b98d1f3c0d590d30);
+        
+    
+            marker_b4c363f385ff4ea9808155a425fcfe47.bindTooltip(
+                `<div>
+                     Spalt PR Helsinki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdfa0f2e78ee47d2ab1bc5a7cb0f0241 = L.marker(
+                [60.169065405434615, 24.936771228051832],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_f9ed2366ba794198830e491182eba057 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fdfa0f2e78ee47d2ab1bc5a7cb0f0241.setIcon(icon_f9ed2366ba794198830e491182eba057);
+        
+    
+            marker_fdfa0f2e78ee47d2ab1bc5a7cb0f0241.bindTooltip(
+                `<div>
+                     Svensk Ungdom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_283375470f854e379fe32676d238280f = L.marker(
+                [60.16563260507134, 24.93465212805861],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_ea820411a0bf4029812a750f6018f0f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_283375470f854e379fe32676d238280f.setIcon(icon_ea820411a0bf4029812a750f6018f0f9);
+        
+    
+            marker_283375470f854e379fe32676d238280f.bindTooltip(
+                `<div>
+                     p2s Media
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c88a11eceb904c749c9194481733949c = L.marker(
+                [60.16578227131679, 24.931665377499726],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_fbb25d04306a4fb2b07f931e2c72bb12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c88a11eceb904c749c9194481733949c.setIcon(icon_fbb25d04306a4fb2b07f931e2c72bb12);
+        
+    
+            marker_c88a11eceb904c749c9194481733949c.bindTooltip(
+                `<div>
+                     E28 Community
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae78c045fe8c4516a452c0c2d6b29d50 = L.marker(
+                [60.16459195115057, 24.93476447487879],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_e1ef2fe196f8486cbfae12eac0e64065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae78c045fe8c4516a452c0c2d6b29d50.setIcon(icon_e1ef2fe196f8486cbfae12eac0e64065);
+        
+    
+            marker_ae78c045fe8c4516a452c0c2d6b29d50.bindTooltip(
+                `<div>
+                     Frame Graphics
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0fe523e633d4f84aca42983005259c3 = L.marker(
+                [60.17227313475555, 24.937962368130684],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_2b2cdfd9d03d475b87106a2ec52d48f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e0fe523e633d4f84aca42983005259c3.setIcon(icon_2b2cdfd9d03d475b87106a2ec52d48f6);
+        
+    
+            marker_e0fe523e633d4f84aca42983005259c3.bindTooltip(
+                `<div>
+                     HS.fi Dev HQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_257bc31584a3474dadd50c6487e153d1 = L.marker(
+                [60.165065992768426, 24.93095672646299],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_bf5221d5e4fe45ed9814c67632206891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_257bc31584a3474dadd50c6487e153d1.setIcon(icon_bf5221d5e4fe45ed9814c67632206891);
+        
+    
+            marker_257bc31584a3474dadd50c6487e153d1.bindTooltip(
+                `<div>
+                     Boksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fc5fbc65c6c4941aae4a361bf6af92e = L.marker(
+                [60.17232329053377, 24.938254295111477],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_2610189994e44eadbbe5b3efafaaa03c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6fc5fbc65c6c4941aae4a361bf6af92e.setIcon(icon_2610189994e44eadbbe5b3efafaaa03c);
+        
+    
+            marker_6fc5fbc65c6c4941aae4a361bf6af92e.bindTooltip(
+                `<div>
+                     Helsingin Sanomat News Desk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81ca0d704edf4cecbf8b083bb258a954 = L.marker(
+                [60.172382626601255, 24.938322962501214],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_2ebc5ff10f7d4dfd8a0dfbeb465f7c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_81ca0d704edf4cecbf8b083bb258a954.setIcon(icon_2ebc5ff10f7d4dfd8a0dfbeb465f7c16);
+        
+    
+            marker_81ca0d704edf4cecbf8b083bb258a954.bindTooltip(
+                `<div>
+                     Helsingin Sanomat Kaupunkitoimitus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70bd2a959b8a41abb9b01b2eb78ab596 = L.marker(
+                [60.169855303538235, 24.94577562322455],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_17bed257b75848b1a2f9711c11e38aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_70bd2a959b8a41abb9b01b2eb78ab596.setIcon(icon_17bed257b75848b1a2f9711c11e38aa0);
+        
+    
+            marker_70bd2a959b8a41abb9b01b2eb78ab596.bindTooltip(
+                `<div>
+                     Epicenter
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e89986608a64b5eaf549b32e581365d = L.marker(
+                [60.16912696295596, 24.94733404211601],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_da693705c2c6483dab9e23fd87e3697c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2e89986608a64b5eaf549b32e581365d.setIcon(icon_da693705c2c6483dab9e23fd87e3697c);
+        
+    
+            marker_2e89986608a64b5eaf549b32e581365d.bindTooltip(
+                `<div>
+                     AmCham Finland Senate Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d82c3ba87f478081f40db2d1a39ced = L.marker(
+                [60.17051588306732, 24.94719611248664],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_3225e54221574b51a20489fced0a305f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_46d82c3ba87f478081f40db2d1a39ced.setIcon(icon_3225e54221574b51a20489fced0a305f);
+        
+    
+            marker_46d82c3ba87f478081f40db2d1a39ced.bindTooltip(
+                `<div>
+                     Vuorikatu 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20767f11bfdc463da0c9fce69a12fa6a = L.marker(
+                [60.16425510687367, 24.945400248998684],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b28ac1a742344761a2df378f97e7e5bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_20767f11bfdc463da0c9fce69a12fa6a.setIcon(icon_b28ac1a742344761a2df378f97e7e5bc);
+        
+    
+            marker_20767f11bfdc463da0c9fce69a12fa6a.bindTooltip(
+                `<div>
+                     MOW Mothership
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_607d9791031c49339e1ba6bcf73efb9c = L.marker(
+                [60.16668372126147, 24.92167130112648],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_faa68dddf5c64cc3abbf01ff2d1c0264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_607d9791031c49339e1ba6bcf73efb9c.setIcon(icon_faa68dddf5c64cc3abbf01ff2d1c0264);
+        
+    
+            marker_607d9791031c49339e1ba6bcf73efb9c.bindTooltip(
+                `<div>
+                     Maria 01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_208a8e2420164be584555664b0813d59 = L.marker(
+                [60.16671, 24.921392],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_72549d706faf481c8103108a8a8f6a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_208a8e2420164be584555664b0813d59.setIcon(icon_72549d706faf481c8103108a8a8f6a06);
+        
+    
+            marker_208a8e2420164be584555664b0813d59.bindTooltip(
+                `<div>
+                     Vertical
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b933685a4f20499c82c90bf19a1e2a68 = L.marker(
+                [60.17243371498041, 24.94848304781804],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_ee3acd04e3e64311aecb3fe3fe24d716 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b933685a4f20499c82c90bf19a1e2a68.setIcon(icon_ee3acd04e3e64311aecb3fe3fe24d716);
+        
+    
+            marker_b933685a4f20499c82c90bf19a1e2a68.bindTooltip(
+                `<div>
+                     HUB13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_476d1bc4ee084360bf80670746515e13 = L.marker(
+                [60.168609222203585, 24.951940382091532],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_87349aaf9399409f81e4af415bc271e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_476d1bc4ee084360bf80670746515e13.setIcon(icon_87349aaf9399409f81e4af415bc271e1);
+        
+    
+            marker_476d1bc4ee084360bf80670746515e13.bindTooltip(
+                `<div>
+                     Sofia Future Farm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_818ce7e806284c97afade5b3f549d21c = L.marker(
+                [60.164256463761184, 24.921586753645016],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_a051b985c61f43e8ba8b2c49deb09f84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_818ce7e806284c97afade5b3f549d21c.setIcon(icon_a051b985c61f43e8ba8b2c49deb09f84);
+        
+    
+            marker_818ce7e806284c97afade5b3f549d21c.bindTooltip(
+                `<div>
+                     Helsinki Business Hub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f74eb65773e42ef9b0adaae875c809f = L.marker(
+                [60.16017373556612, 24.94213388547235],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_626b763da6994a4dbe172b8e11b51e35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7f74eb65773e42ef9b0adaae875c809f.setIcon(icon_626b763da6994a4dbe172b8e11b51e35);
+        
+    
+            marker_7f74eb65773e42ef9b0adaae875c809f.bindTooltip(
+                `<div>
+                     Demos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a50c48a2af2d479fbafac5d4db7570bd = L.marker(
+                [60.159404417297765, 24.93719458580017],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_cdf48da5a2cf42b08278d3c52c638a66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a50c48a2af2d479fbafac5d4db7570bd.setIcon(icon_cdf48da5a2cf42b08278d3c52c638a66);
+        
+    
+            marker_a50c48a2af2d479fbafac5d4db7570bd.bindTooltip(
+                `<div>
+                     Limudisko-Drottningholm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d52adb9c38524079be59955814dce407 = L.marker(
+                [60.1584359632645, 24.9345568557079],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b628a9f5d3b94c26b1312deb64a68b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d52adb9c38524079be59955814dce407.setIcon(icon_b628a9f5d3b94c26b1312deb64a68b4c);
+        
+    
+            marker_d52adb9c38524079be59955814dce407.bindTooltip(
+                `<div>
+                     +Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cba09ebec9d4c0298c5b672e56faa1e = L.marker(
+                [60.15828330324933, 24.93398666381836],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_f2cc52e10dad47caa47d7415fc68cd4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6cba09ebec9d4c0298c5b672e56faa1e.setIcon(icon_f2cc52e10dad47caa47d7415fc68cd4c);
+        
+    
+            marker_6cba09ebec9d4c0298c5b672e56faa1e.bindTooltip(
+                `<div>
+                     Deck
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aafa2d018704593bc630b34e28ef5d3 = L.marker(
+                [60.17552, 24.95248],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_d3a454e395744e1ba14aefa284890a11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9aafa2d018704593bc630b34e28ef5d3.setIcon(icon_d3a454e395744e1ba14aefa284890a11);
+        
+    
+            marker_9aafa2d018704593bc630b34e28ef5d3.bindTooltip(
+                `<div>
+                     xEdu - Education startup accelerator
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_884891357413440390b618ea2ffcf464 = L.marker(
+                [60.174231556068015, 24.954822063446045],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_bbfbcaa3ea61416d9156b66c9f96a310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_884891357413440390b618ea2ffcf464.setIcon(icon_bbfbcaa3ea61416d9156b66c9f96a310);
+        
+    
+            marker_884891357413440390b618ea2ffcf464.bindTooltip(
+                `<div>
+                     Milk+Chocolate HQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5f537be16fd4176b4fa89647f116a29 = L.marker(
+                [60.16761966389723, 24.91312965515414],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_8d9afd19e8b3409aaf030d31e04b5086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a5f537be16fd4176b4fa89647f116a29.setIcon(icon_8d9afd19e8b3409aaf030d31e04b5086);
+        
+    
+            marker_a5f537be16fd4176b4fa89647f116a29.bindTooltip(
+                `<div>
+                     Lapinlahden sairaala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60fd886406b24611ac843e1fe51d1b07 = L.marker(
+                [60.18082934164832, 24.929123594631683],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_ee1a4954088b4906819098294af401f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_60fd886406b24611ac843e1fe51d1b07.setIcon(icon_ee1a4954088b4906819098294af401f5);
+        
+    
+            marker_60fd886406b24611ac843e1fe51d1b07.bindTooltip(
+                `<div>
+                     Sugar Bay Hub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a297e401bf04ceca1323336d9d042ca = L.marker(
+                [60.169916, 24.930631],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b4ae6e806b6d4b36bd2c581d27a50516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6a297e401bf04ceca1323336d9d042ca.setIcon(icon_b4ae6e806b6d4b36bd2c581d27a50516);
+        
+    
+            marker_6a297e401bf04ceca1323336d9d042ca.bindTooltip(
+                `<div>
+                     Terveystalo Piazza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24256ccd209d491d95d9a4850d25776b = L.marker(
+                [60.16878824355282, 24.929534196853634],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_6c07fd8855144fccb85d419b5ba1865e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_24256ccd209d491d95d9a4850d25776b.setIcon(icon_6c07fd8855144fccb85d419b5ba1865e);
+        
+    
+            marker_24256ccd209d491d95d9a4850d25776b.bindTooltip(
+                `<div>
+                     Four Reasons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f14428506f7c48f8a9871b82ede4fe89 = L.marker(
+                [60.1716, 24.9375],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_99297273452f42d48a9f5358fea9c20a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f14428506f7c48f8a9871b82ede4fe89.setIcon(icon_99297273452f42d48a9f5358fea9c20a);
+        
+    
+            marker_f14428506f7c48f8a9871b82ede4fe89.bindTooltip(
+                `<div>
+                     Spaces - Helsinki, Postitalo Spaces
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9465ace1ff624c9b983dd0dcffc82b45 = L.marker(
+                [60.18204920230535, 24.945056483995177],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_f1fd9795684846438451aefa94c7506b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9465ace1ff624c9b983dd0dcffc82b45.setIcon(icon_f1fd9795684846438451aefa94c7506b);
+        
+    
+            marker_9465ace1ff624c9b983dd0dcffc82b45.bindTooltip(
+                `<div>
+                     Toimisto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d24dc2f93734cf5a192b61f3821655a = L.marker(
+                [60.16397617431216, 24.90821054659648],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_edc0410e854a4a6a85264535b2ec272b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3d24dc2f93734cf5a192b61f3821655a.setIcon(icon_edc0410e854a4a6a85264535b2ec272b);
+        
+    
+            marker_3d24dc2f93734cf5a192b61f3821655a.bindTooltip(
+                `<div>
+                     MOW Stargate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf3dae404b6d45e6856d1e0ae8101408 = L.marker(
+                [60.18304462259261, 24.941909345509753],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_4481a77bd619455aa074b6a3be7cd63e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bf3dae404b6d45e6856d1e0ae8101408.setIcon(icon_4481a77bd619455aa074b6a3be7cd63e);
+        
+    
+            marker_bf3dae404b6d45e6856d1e0ae8101408.bindTooltip(
+                `<div>
+                     Yrityslinna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b0a96fa26c949b5ab64e00ef48ae5a1 = L.marker(
+                [60.17202724760491, 24.947776691942103],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_202ce1c84c634893a8dfb7278128e122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1b0a96fa26c949b5ab64e00ef48ae5a1.setIcon(icon_202ce1c84c634893a8dfb7278128e122);
+        
+    
+            marker_1b0a96fa26c949b5ab64e00ef48ae5a1.bindTooltip(
+                `<div>
+                     HERO Helsingin erilaiset oppijat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f655f356de8541998fc9d6c567ff8407 = L.marker(
+                [60.161832661449004, 24.904030837415977],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b739b7dd27d6418da2c1837e37560753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f655f356de8541998fc9d6c567ff8407.setIcon(icon_b739b7dd27d6418da2c1837e37560753);
+        
+    
+            marker_f655f356de8541998fc9d6c567ff8407.bindTooltip(
+                `<div>
+                     Kaapelitehdas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e60c3b534a9f49908d30e449d39c3aa5 = L.marker(
+                [60.17396350052872, 24.92647088560934],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_f283e46670d1497ca3f8f1d245262765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e60c3b534a9f49908d30e449d39c3aa5.setIcon(icon_f283e46670d1497ca3f8f1d245262765);
+        
+    
+            marker_e60c3b534a9f49908d30e449d39c3aa5.bindTooltip(
+                `<div>
+                     Idealist Group
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f117f5612104a46a4905ce5a9ac65fb = L.marker(
+                [60.16165130648691, 24.903267107011892],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_e76abe8bf7fb45f5b9d420519d4fd4ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1f117f5612104a46a4905ce5a9ac65fb.setIcon(icon_e76abe8bf7fb45f5b9d420519d4fd4ad);
+        
+    
+            marker_1f117f5612104a46a4905ce5a9ac65fb.bindTooltip(
+                `<div>
+                     Casual Friday Studios
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fd3230082fe4aa19d3644b9563f5422 = L.marker(
+                [60.19122042845324, 24.949137791991234],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_0cda560127b543f49025da2250bcd291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1fd3230082fe4aa19d3644b9563f5422.setIcon(icon_0cda560127b543f49025da2250bcd291);
+        
+    
+            marker_1fd3230082fe4aa19d3644b9563f5422.bindTooltip(
+                `<div>
+                     Wonderland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88bceeaa09be4b4aba5ecf7c9c62f567 = L.marker(
+                [60.16687338843196, 24.96535035100234],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b2846a46d7f146e4939dc63c7ed3df7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_88bceeaa09be4b4aba5ecf7c9c62f567.setIcon(icon_b2846a46d7f146e4939dc63c7ed3df7a);
+        
+    
+            marker_88bceeaa09be4b4aba5ecf7c9c62f567.bindTooltip(
+                `<div>
+                     Kesko Oyj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e10533d63b5a49bdb40afb6f3ec18a50 = L.marker(
+                [60.15459624846862, 24.92115325198633],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_6029ba2fd99948d8ac7e83a5ca0a009b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e10533d63b5a49bdb40afb6f3ec18a50.setIcon(icon_6029ba2fd99948d8ac7e83a5ca0a009b);
+        
+    
+            marker_e10533d63b5a49bdb40afb6f3ec18a50.bindTooltip(
+                `<div>
+                     Portti C / Gate C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55a6fc008d1e420c92601c87e499421c = L.marker(
+                [60.19080338646422, 24.960679618116743],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_71c26093060b45fbb6e6851aece1fdf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_55a6fc008d1e420c92601c87e499421c.setIcon(icon_71c26093060b45fbb6e6851aece1fdf8);
+        
+    
+            marker_55a6fc008d1e420c92601c87e499421c.bindTooltip(
+                `<div>
+                     Verohallinto Vallila
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5c0bb34746f454186157ef44f4a5cf5 = L.marker(
+                [60.15451083370066, 24.920848013578677],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_2a99ffdd66294427b7ede9f1f9eda2d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e5c0bb34746f454186157ef44f4a5cf5.setIcon(icon_2a99ffdd66294427b7ede9f1f9eda2d4);
+        
+    
+            marker_e5c0bb34746f454186157ef44f4a5cf5.bindTooltip(
+                `<div>
+                     Eckerö Line
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_390bf4df163a419cbc35a7822c3d2a0f = L.marker(
+                [60.187031152938474, 24.973114194529863],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_1f496266afeb4805bc70f7482febadd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_390bf4df163a419cbc35a7822c3d2a0f.setIcon(icon_1f496266afeb4805bc70f7482febadd8);
+        
+    
+            marker_390bf4df163a419cbc35a7822c3d2a0f.bindTooltip(
+                `<div>
+                     Tiivistämö
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_652effc7d7d145a088c997b07ce11973 = L.marker(
+                [60.19850536514782, 24.934737902761086],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_3ea60011d99742ac98db1bc0146f8be5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_652effc7d7d145a088c997b07ce11973.setIcon(icon_3ea60011d99742ac98db1bc0146f8be5);
+        
+    
+            marker_652effc7d7d145a088c997b07ce11973.bindTooltip(
+                `<div>
+                     Hupi Pasila
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e14f7f97205c4111a36ed7dd5cde4a6f = L.marker(
+                [60.19611263592966, 24.962682328803396],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_d70f5b6606de4ea2b27089100084e6e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e14f7f97205c4111a36ed7dd5cde4a6f.setIcon(icon_d70f5b6606de4ea2b27089100084e6e8);
+        
+    
+            marker_e14f7f97205c4111a36ed7dd5cde4a6f.bindTooltip(
+                `<div>
+                     Cloud Cuts Coop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b14d1c9d0d0142faba879c2bf836903d = L.marker(
+                [60.18706386155517, 24.96720245289316],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_0f70a79136ed4a32b05286378996deb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b14d1c9d0d0142faba879c2bf836903d.setIcon(icon_0f70a79136ed4a32b05286378996deb9);
+        
+    
+            marker_b14d1c9d0d0142faba879c2bf836903d.bindTooltip(
+                `<div>
+                     Animalia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fc1bbc07d3247e786dbe0a4535ddef4 = L.marker(
+                [60.20021136372133, 24.963888384064976],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_052cff4df36047d085fbe995ba99cce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6fc1bbc07d3247e786dbe0a4535ddef4.setIcon(icon_052cff4df36047d085fbe995ba99cce8);
+        
+    
+            marker_6fc1bbc07d3247e786dbe0a4535ddef4.bindTooltip(
+                `<div>
+                     Suomen Voimisteluliitto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7910c236a1b420a9aa94001389d2422 = L.marker(
+                [60.161599099208715, 24.86673576867907],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_d5d2dc6788e44b209af167d68f016103 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a7910c236a1b420a9aa94001389d2422.setIcon(icon_d5d2dc6788e44b209af167d68f016103);
+        
+    
+            marker_a7910c236a1b420a9aa94001389d2422.bindTooltip(
+                `<div>
+                     KVA Arkkitehdit Oy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b464e07488d3468a83d6cef05765228f = L.marker(
+                [60.19521100319479, 24.93302159791547],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_7dd919a2363740a487f04bb847f2c144 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b464e07488d3468a83d6cef05765228f.setIcon(icon_7dd919a2363740a487f04bb847f2c144);
+        
+    
+            marker_b464e07488d3468a83d6cef05765228f.bindTooltip(
+                `<div>
+                     Pasilan Vanhat Veturitallit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3175620927824fc5b0fe8d41450c1524 = L.marker(
+                [60.186446, 24.979255],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_96d8531ec7ca4736bef6ca422af5618d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3175620927824fc5b0fe8d41450c1524.setIcon(icon_96d8531ec7ca4736bef6ca422af5618d);
+        
+    
+            marker_3175620927824fc5b0fe8d41450c1524.bindTooltip(
+                `<div>
+                     Kalasatama Urban Lab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4757e42e837e40fa827665a02c47aa82 = L.marker(
+                [60.21167045344716, 24.980556738601038],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b727c6dfabbd43a6b806c119007ec9ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4757e42e837e40fa827665a02c47aa82.setIcon(icon_b727c6dfabbd43a6b806c119007ec9ef);
+        
+    
+            marker_4757e42e837e40fa827665a02c47aa82.bindTooltip(
+                `<div>
+                     NettiNorppa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d202b711243d4c8e9927d5b832212b8b = L.marker(
+                [60.20625889086879, 24.916608770254793],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_aee2dfa541894f348a798d6f7008f365 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d202b711243d4c8e9927d5b832212b8b.setIcon(icon_aee2dfa541894f348a798d6f7008f365);
+        
+    
+            marker_d202b711243d4c8e9927d5b832212b8b.bindTooltip(
+                `<div>
+                     MTV Filmihalli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57b70784e04942d0aafd85ffc89f56ad = L.marker(
+                [60.18078921653942, 24.83270812056055],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_1f37691a4dbf4d909ef15248acac9f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57b70784e04942d0aafd85ffc89f56ad.setIcon(icon_1f37691a4dbf4d909ef15248acac9f5c);
+        
+    
+            marker_57b70784e04942d0aafd85ffc89f56ad.bindTooltip(
+                `<div>
+                     Startup Sauna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e0926ef21424f93b6b347073831a62f = L.marker(
+                [60.219113045037496, 24.936248056547537],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_bf28fa3c602b488585fd5b35b40f3ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1e0926ef21424f93b6b347073831a62f.setIcon(icon_bf28fa3c602b488585fd5b35b40f3ea3);
+        
+    
+            marker_1e0926ef21424f93b6b347073831a62f.bindTooltip(
+                `<div>
+                     Luovat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee5c42eff6194f419346fd8693488006 = L.marker(
+                [60.18072165243407, 24.832108573686398],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_030a7d45076f4c3a88cbe035c859786b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ee5c42eff6194f419346fd8693488006.setIcon(icon_030a7d45076f4c3a88cbe035c859786b);
+        
+    
+            marker_ee5c42eff6194f419346fd8693488006.bindTooltip(
+                `<div>
+                     Urban Mill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dff57b901784af289d19908a320b535 = L.marker(
+                [60.18934895026581, 24.832544085145944],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_b4174063d39e42549f005a6d8e0cb8d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4dff57b901784af289d19908a320b535.setIcon(icon_b4174063d39e42549f005a6d8e0cb8d4);
+        
+    
+            marker_4dff57b901784af289d19908a320b535.bindTooltip(
+                `<div>
+                     A grid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5adf2be62ed247f99fc49a72388f3ae3 = L.marker(
+                [60.180476784851194, 24.823036673608065],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_89a07a2e27464fe5a9f6255d346b7e38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5adf2be62ed247f99fc49a72388f3ae3.setIcon(icon_89a07a2e27464fe5a9f6255d346b7e38);
+        
+    
+            marker_5adf2be62ed247f99fc49a72388f3ae3.bindTooltip(
+                `<div>
+                     Innovation House Finland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_238e5958ab8e4ad3a5c4fc8cecc110d6 = L.marker(
+                [60.21584208286891, 24.868565448443523],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_ef3dfc20015047359ba21cb4b70994e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_238e5958ab8e4ad3a5c4fc8cecc110d6.setIcon(icon_ef3dfc20015047359ba21cb4b70994e3);
+        
+    
+            marker_238e5958ab8e4ad3a5c4fc8cecc110d6.bindTooltip(
+                `<div>
+                     Kutomo Business Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89bf92cc8c9340a09da333f98f0613b9 = L.marker(
+                [60.179604502601016, 24.820141111789763],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_a689b19ebe8f49c6b098d836d1fc8c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_89bf92cc8c9340a09da333f98f0613b9.setIcon(icon_a689b19ebe8f49c6b098d836d1fc8c51);
+        
+    
+            marker_89bf92cc8c9340a09da333f98f0613b9.bindTooltip(
+                `<div>
+                     Moonsoft Oy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c872e7a5b59147578a0664391a5e4f76 = L.marker(
+                [60.1784878, 24.8343431],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_8e6eb51186e24dfb947d2784f5447b15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c872e7a5b59147578a0664391a5e4f76.setIcon(icon_8e6eb51186e24dfb947d2784f5447b15);
+        
+    
+            marker_c872e7a5b59147578a0664391a5e4f76.bindTooltip(
+                `<div>
+                     Regus - Espoo, Life Science Centre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bf1a805df3048529bf55f87256834d5 = L.marker(
+                [60.187391079255605, 24.814756054717872],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_ec6f33e76f574b4a907e9f33ea9c9692 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6bf1a805df3048529bf55f87256834d5.setIcon(icon_ec6f33e76f574b4a907e9f33ea9c9692);
+        
+    
+            marker_6bf1a805df3048529bf55f87256834d5.bindTooltip(
+                `<div>
+                     AppSpace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b1276b1db4d4e15b6d3dbb399c915c3 = L.marker(
+                [60.18273489116602, 24.827815241182694],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_465338e88a2249c9932a30974d04c6a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2b1276b1db4d4e15b6d3dbb399c915c3.setIcon(icon_465338e88a2249c9932a30974d04c6a0);
+        
+    
+            marker_2b1276b1db4d4e15b6d3dbb399c915c3.bindTooltip(
+                `<div>
+                     VTT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afb1611b44ed4b0d8aca3ff9d05987bc = L.marker(
+                [60.21908048472001, 24.82888761252317],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_d5419b68958e476cbc5a80fe09aee2ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_afb1611b44ed4b0d8aca3ff9d05987bc.setIcon(icon_d5419b68958e476cbc5a80fe09aee2ba);
+        
+    
+            marker_afb1611b44ed4b0d8aca3ff9d05987bc.bindTooltip(
+                `<div>
+                     RAY Digital HQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b2241bbd9f64d1292541f55940552e7 = L.marker(
+                [60.228313018857406, 24.880212816577195],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_500cee80df06474cab0fb40fd9641571 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6b2241bbd9f64d1292541f55940552e7.setIcon(icon_500cee80df06474cab0fb40fd9641571);
+        
+    
+            marker_6b2241bbd9f64d1292541f55940552e7.bindTooltip(
+                `<div>
+                     Lassilanlinna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64391aa0d7fd413eb69bc9262dac01cd = L.marker(
+                [60.189072, 24.804944],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_370265d7b08d4aa18ffafe019b7f5267 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_64391aa0d7fd413eb69bc9262dac01cd.setIcon(icon_370265d7b08d4aa18ffafe019b7f5267);
+        
+    
+            marker_64391aa0d7fd413eb69bc9262dac01cd.bindTooltip(
+                `<div>
+                     Talent Base
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2286e2e22a474e8087a0543459d70243 = L.marker(
+                [60.2243747396333, 24.811269988660655],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_f099db5b303241fc8c3e6161417d8929 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2286e2e22a474e8087a0543459d70243.setIcon(icon_f099db5b303241fc8c3e6161417d8929);
+        
+    
+            marker_2286e2e22a474e8087a0543459d70243.bindTooltip(
+                `<div>
+                     Hippostalo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e03cb6b999a14139a5697e481b86e4ab = L.marker(
+                [60.2178988073633, 24.80919823050499],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_44bc09e2524245cd8ce7f9eeae663f9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e03cb6b999a14139a5697e481b86e4ab.setIcon(icon_44bc09e2524245cd8ce7f9eeae663f9b);
+        
+    
+            marker_e03cb6b999a14139a5697e481b86e4ab.bindTooltip(
+                `<div>
+                     Nuortenosasto Pointti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04e16ca72f33402e9d1a89ab9700295e = L.marker(
+                [60.16687086208483, 24.774798229336735],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_0020a80c0de24956b94fcddba156ad26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_04e16ca72f33402e9d1a89ab9700295e.setIcon(icon_0020a80c0de24956b94fcddba156ad26);
+        
+    
+            marker_04e16ca72f33402e9d1a89ab9700295e.bindTooltip(
+                `<div>
+                     Ahti Business Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e67f886beb984c9481f7c09f7b9009c4 = L.marker(
+                [60.16580707548356, 24.92882944262788],
+                {}
+            ).addTo(map_aaa644b54b944f5488457b4ab962da3b);
+        
+    
+            var icon_9812701e167a49dcbbe094230bfb45a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e67f886beb984c9481f7c09f7b9009c4.setIcon(icon_9812701e167a49dcbbe094230bfb45a6);
+        
+    
+            marker_e67f886beb984c9481f7c09f7b9009c4.bindTooltip(
+                `<div>
+                     Playmysong HQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

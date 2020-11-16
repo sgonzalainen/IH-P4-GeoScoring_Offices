@@ -1,4 +1,6 @@
 import random
+import src.data as dt
+from src.variables import Variables as Var
 
 
 class Stakeholder():
@@ -189,6 +191,39 @@ def create_stakeholders():
 
 
 
+def get_all_scores(df, stakeholders):
+    '''
+
+    '''
+
+
+    df_score = df[['_id','name', 'location']].copy()
+
+    df_score['design_score'] = df['Design company'].apply(lambda x: get_score(stakeholders,'design') if x > 0 else 0)
+
+    df_score['school_score'] = df['preschools'].apply(lambda x: get_score(stakeholders,'school') if x > 0 else 0)
+
+    threshold = df.tech_startup.quantile(0.75)
+
+    df_score['tech_score'] = df['tech_startup'].apply(lambda x: get_score(stakeholders,'tech') if x >= threshold else 0)
+
+    df_score['starbucks_score'] = df['Starbucks'].apply(lambda x: get_score(stakeholders,'starbucks') if x > 0 else 0)
+
+    df_score['airport_score'] = df.apply(lambda x: dt.score_travel(x,Var.IDEAL_TIME_CAR, Var.IDEAL_TIME_TRANSPORT,Var.PRC_PEN_MIN,stakeholders), axis = 1)
+
+    df_score['party_score'] = df['night_club'].apply(lambda x: get_score(stakeholders,'club') if x > 0 else 0)
+
+    df_score['vegan_score'] = df['vegan_rest'].apply(lambda x: get_score(stakeholders,'vegan') if x > 0 else 0)
+
+    df_score['basket_score'] = df['basket_stadium'].apply(lambda x: get_score(stakeholders,'basket') if x > 0 else 0)
+
+    df_score['dog_score'] = df['pet groomer'].apply(lambda x: get_score(stakeholders,'dog') if x > 0 else 0)
+
+    df_score['total'] = df_score['design_score']+df_score['school_score']+df_score['tech_score']+df_score['starbucks_score']+df_score['airport_score']+df_score['party_score']+df_score['vegan_score']+df_score['basket_score']+df_score['dog_score']
+
+    df_score = df_score.sort_values('total', ascending = False)
+
+    return df_score
 
 
 
@@ -201,15 +236,3 @@ def create_stakeholders():
 
 
 
-
-
-
-
-
-
-CEO_NUM = 1
-CEO_SCORE = 100
-EXECUTIVES_NUM = 10
-EXECUTIVES_SCORE = 50
-ACCOUNT_MAN_NUM = 20
-ACCOUNT_MAN_SCORE = 25

@@ -27,6 +27,9 @@ class Variables():
 
     AIRPORT_LON = 24.971072
 
+    TRAIN_LAT = 60.170918
+    TRAIN_LON = 24.941287
+
 
     TIME_CALC_DAY = 17
     TIME_CALC_HOUR = 12

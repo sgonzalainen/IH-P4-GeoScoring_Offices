@@ -1,0 +1,70 @@
+_id,type,name,location,tech_startup,Starbucks,preschools,night_club,vegan_rest,pet groomer,basket_stadium,driving,transit,Design company
+5fafe7f65143de9ede25a204,coworking_space,Tiedekulma / Think Corner,"{'coordinates': [24.948465, 60.169746], 'type': 'Point'}",26,0,1,11,2,0,6,26.3,35.0,0
+5fafe7f65143de9ede25a205,coworking_space,Spalt PR Helsinki,"{'coordinates': [24.95028953736944, 60.16783980586258], 'type': 'Point'}",26,0,0,7,4,0,5,27.2,39.0,0
+5fafe7f65143de9ede25a206,coworking_space,Svensk Ungdom,"{'coordinates': [24.936771228051832, 60.169065405434615], 'type': 'Point'}",33,1,0,28,6,0,6,28.3,33.8,0
+5fafe7f65143de9ede25a207,coworking_space,p2s Media,"{'coordinates': [24.93465212805861, 60.16563260507134], 'type': 'Point'}",36,0,0,13,4,1,5,28.8,42.5,1
+5fafe7f65143de9ede25a208,coworking_space,E28 Community,"{'coordinates': [24.931665377499726, 60.16578227131679], 'type': 'Point'}",33,0,1,12,1,1,5,28.1,47.4,1
+5fafe7f65143de9ede25a209,coworking_space,Frame Graphics,"{'coordinates': [24.93476447487879, 60.16459195115057], 'type': 'Point'}",35,0,0,10,2,3,5,29.8,43.6,1
+5fafe7f65143de9ede25a20a,coworking_space,HS.fi Dev HQ,"{'coordinates': [24.937962368130684, 60.17227313475555], 'type': 'Point'}",24,0,0,18,1,0,6,26.3,33.4,0
+5fafe7f65143de9ede25a20b,coworking_space,Boksi,"{'coordinates': [24.93095672646299, 60.165065992768426], 'type': 'Point'}",31,0,1,4,1,1,5,29.2,49.7,1
+5fafe7f65143de9ede25a20c,coworking_space,Helsingin Sanomat News Desk,"{'coordinates': [24.938254295111477, 60.17232329053377], 'type': 'Point'}",25,0,0,18,1,0,6,26.2,33.2,0
+5fafe7f65143de9ede25a20d,coworking_space,Helsingin Sanomat Kaupunkitoimitus,"{'coordinates': [24.938322962501214, 60.172382626601255], 'type': 'Point'}",25,0,0,17,1,0,6,25.5,33.1,0
+5fafe7f65143de9ede25a20e,coworking_space,Epicenter,"{'coordinates': [24.94577562322455, 60.169855303538235], 'type': 'Point'}",28,1,1,12,5,0,6,26.7,33.3,0
+5fafe7f65143de9ede25a20f,coworking_space,AmCham Finland Senate Square,"{'coordinates': [24.94733404211601, 60.16912696295596], 'type': 'Point'}",26,1,0,13,2,0,6,27.1,35.3,0
+5fafe7f65143de9ede25a210,coworking_space,Vuorikatu 6,"{'coordinates': [24.94719611248664, 60.17051588306732], 'type': 'Point'}",26,0,1,12,3,0,6,27.8,35.4,0
+5fafe7f65143de9ede25a211,coworking_space,MOW Mothership,"{'coordinates': [24.945400248998684, 60.16425510687367], 'type': 'Point'}",33,0,1,8,3,2,5,28.8,46.9,0
+5fafe7f65143de9ede25a212,coworking_space,Maria 01,"{'coordinates': [24.92167130112648, 60.16668372126147], 'type': 'Point'}",21,0,2,4,0,1,5,26.6,50.0,0
+5fafe7f65143de9ede25a213,coworking_space,Vertical,"{'coordinates': [24.921392, 60.16671], 'type': 'Point'}",20,0,2,3,0,1,5,26.6,50.1,0
+5fafe7f65143de9ede25a214,coworking_space,HUB13,"{'coordinates': [24.94848304781804, 60.17243371498041], 'type': 'Point'}",20,0,2,2,2,0,6,24.6,35.4,0
+5fafe7f65143de9ede25a215,coworking_space,Sofia Future Farm,"{'coordinates': [24.951940382091532, 60.168609222203585], 'type': 'Point'}",21,0,0,6,2,0,5,26.9,41.7,0
+5fafe7f65143de9ede25a216,coworking_space,Helsinki Business Hub,"{'coordinates': [24.921586753645016, 60.164256463761184], 'type': 'Point'}",20,0,1,0,0,1,5,26.1,49.8,0
+5fafe7f65143de9ede25a217,coworking_space,Demos,"{'coordinates': [24.94213388547235, 60.16017373556612], 'type': 'Point'}",20,0,2,3,0,2,4,30.8,52.0,1
+5fafe7f65143de9ede25a218,coworking_space,Limudisko-Drottningholm,"{'coordinates': [24.93719458580017, 60.159404417297765], 'type': 'Point'}",15,0,1,0,0,3,4,30.5,56.6,0
+5fafe7f65143de9ede25a219,coworking_space,+Studio,"{'coordinates': [24.9345568557079, 60.1584359632645], 'type': 'Point'}",14,0,1,0,0,3,4,30.0,54.5,0
+5fafe7f65143de9ede25a21a,coworking_space,Deck,"{'coordinates': [24.93398666381836, 60.15828330324933], 'type': 'Point'}",13,0,1,0,0,3,4,29.9,54.5,0
+5fafe7f65143de9ede25a21b,coworking_space,xEdu - Education startup accelerator,"{'coordinates': [24.95248, 60.17552], 'type': 'Point'}",11,0,2,0,2,0,6,26.2,41.5,0
+5fafe7f65143de9ede25a21c,coworking_space,Milk+Chocolate HQ,"{'coordinates': [24.954822063446045, 60.174231556068015], 'type': 'Point'}",14,0,2,0,1,0,6,24.4,40.8,0
+5fafe7f65143de9ede25a21d,coworking_space,Lapinlahden sairaala,"{'coordinates': [24.91312965515414, 60.16761966389723], 'type': 'Point'}",13,0,0,0,0,0,5,28.2,55.3,1
+5fafe7f65143de9ede25a21e,coworking_space,Sugar Bay Hub,"{'coordinates': [24.929123594631683, 60.18082934164832], 'type': 'Point'}",0,0,0,0,0,1,6,23.0,48.8,0
+5fafe7f65143de9ede25a21f,coworking_space,Terveystalo Piazza,"{'coordinates': [24.930631, 60.169916], 'type': 'Point'}",31,1,1,22,1,0,5,26.4,43.5,0
+5fafe7f65143de9ede25a220,coworking_space,Four Reasons,"{'coordinates': [24.929534196853634, 60.16878824355282], 'type': 'Point'}",29,1,2,19,1,1,5,26.7,44.1,0
+5fafe7f65143de9ede25a221,coworking_space,"Spaces - Helsinki, Postitalo Spaces","{'coordinates': [24.9375, 60.1716], 'type': 'Point'}",26,0,0,19,1,0,6,26.8,33.4,0
+5fafe7f65143de9ede25a222,coworking_space,Toimisto,"{'coordinates': [24.945056483995177, 60.18204920230535], 'type': 'Point'}",0,0,2,0,2,0,6,20.6,46.7,1
+5fafe7f65143de9ede25a223,coworking_space,MOW Stargate,"{'coordinates': [24.90821054659648, 60.16397617431216], 'type': 'Point'}",9,0,0,0,0,0,5,27.1,48.8,0
+5fafe7f65143de9ede25a224,coworking_space,Yrityslinna,"{'coordinates': [24.941909345509753, 60.18304462259261], 'type': 'Point'}",0,0,1,0,0,0,6,21.2,50.1,0
+5fafe7f65143de9ede25a225,coworking_space,HERO Helsingin erilaiset oppijat,"{'coordinates': [24.947776691942103, 60.17202724760491], 'type': 'Point'}",23,0,1,2,1,0,6,24.8,34.5,0
+5fafe7f65143de9ede25a226,coworking_space,Kaapelitehdas,"{'coordinates': [24.904030837415977, 60.161832661449004], 'type': 'Point'}",6,0,0,0,0,0,5,28.8,51.5,0
+5fafe7f65143de9ede25a227,coworking_space,Idealist Group,"{'coordinates': [24.92647088560934, 60.17396350052872], 'type': 'Point'}",15,0,1,11,0,1,5,25.2,48.3,0
+5fafe7f65143de9ede25a228,coworking_space,Casual Friday Studios,"{'coordinates': [24.903267107011892, 60.16165130648691], 'type': 'Point'}",6,0,0,0,0,0,5,29.0,52.0,0
+5fafe7f65143de9ede25a229,coworking_space,Wonderland,"{'coordinates': [24.949137791991234, 60.19122042845324], 'type': 'Point'}",3,0,0,2,0,0,6,19.5,41.4,0
+5fafe7f65143de9ede25a22a,coworking_space,Kesko Oyj,"{'coordinates': [24.96535035100234, 60.16687338843196], 'type': 'Point'}",7,0,0,0,0,0,5,26.4,54.5,1
+5fafe7f65143de9ede25a22b,coworking_space,Portti C / Gate C,"{'coordinates': [24.92115325198633, 60.15459624846862], 'type': 'Point'}",2,0,0,0,0,0,4,30.3,57.1,0
+5fafe7f65143de9ede25a22c,coworking_space,Verohallinto Vallila,"{'coordinates': [24.960679618116743, 60.19080338646422], 'type': 'Point'}",4,0,1,1,0,0,6,18.0,43.2,0
+5fafe7f65143de9ede25a22d,coworking_space,Eckerö Line,"{'coordinates': [24.920848013578677, 60.15451083370066], 'type': 'Point'}",2,0,0,0,0,0,4,30.4,57.2,0
+5fafe7f65143de9ede25a22e,coworking_space,Tiivistämö,"{'coordinates': [24.973114194529863, 60.187031152938474], 'type': 'Point'}",4,0,1,0,0,0,5,22.8,48.5,0
+5fafe7f65143de9ede25a22f,coworking_space,Hupi Pasila,"{'coordinates': [24.934737902761086, 60.19850536514782], 'type': 'Point'}",1,0,0,0,0,0,6,15.8,25.8,0
+5fafe7f65143de9ede25a230,coworking_space,Cloud Cuts Coop,"{'coordinates': [24.962682328803396, 60.19611263592966], 'type': 'Point'}",2,0,0,0,2,0,6,19.4,49.4,0
+5fafe7f65143de9ede25a231,coworking_space,Animalia,"{'coordinates': [24.96720245289316, 60.18706386155517], 'type': 'Point'}",4,0,1,1,1,0,6,20.4,46.2,1
+5fafe7f65143de9ede25a232,coworking_space,Suomen Voimisteluliitto,"{'coordinates': [24.963888384064976, 60.20021136372133], 'type': 'Point'}",0,0,0,0,1,0,6,19.2,47.4,0
+5fafe7f65143de9ede25a233,coworking_space,KVA Arkkitehdit Oy,"{'coordinates': [24.86673576867907, 60.161599099208715], 'type': 'Point'}",0,0,1,0,0,1,5,25.2,57.7,0
+5fafe7f65143de9ede25a234,coworking_space,Pasilan Vanhat Veturitallit,"{'coordinates': [24.93302159791547, 60.19521100319479], 'type': 'Point'}",1,0,0,0,1,0,6,17.3,38.0,0
+5fafe7f65143de9ede25a235,coworking_space,Kalasatama Urban Lab,"{'coordinates': [24.979255, 60.186446], 'type': 'Point'}",4,0,1,0,1,0,5,21.4,47.2,0
+5fafe7f65143de9ede25a236,coworking_space,NettiNorppa,"{'coordinates': [24.980556738601038, 60.21167045344716], 'type': 'Point'}",0,0,0,0,1,0,6,17.8,51.2,0
+5fafe7f65143de9ede25a237,coworking_space,MTV Filmihalli,"{'coordinates': [24.916608770254793, 60.20625889086879], 'type': 'Point'}",0,0,0,0,0,0,6,16.9,37.9,0
+5fafe7f65143de9ede25a238,coworking_space,Startup Sauna,"{'coordinates': [24.83270812056055, 60.18078921653942], 'type': 'Point'}",2,0,0,0,0,0,5,23.1,60.0,0
+5fafe7f65143de9ede25a239,coworking_space,Luovat,"{'coordinates': [24.936248056547537, 60.219113045037496], 'type': 'Point'}",0,0,0,0,0,0,6,14.4,34.4,0
+5fafe7f65143de9ede25a23a,coworking_space,Urban Mill,"{'coordinates': [24.832108573686398, 60.18072165243407], 'type': 'Point'}",2,0,0,0,0,0,5,22.9,59.6,0
+5fafe7f65143de9ede25a23b,coworking_space,A grid,"{'coordinates': [24.832544085145944, 60.18934895026581], 'type': 'Point'}",0,0,1,0,0,0,5,23.9,66.5,0
+5fafe7f65143de9ede25a23c,coworking_space,Innovation House Finland,"{'coordinates': [24.823036673608065, 60.180476784851194], 'type': 'Point'}",2,0,0,0,0,0,5,21.8,61.8,0
+5fafe7f65143de9ede25a23d,coworking_space,Kutomo Business Park,"{'coordinates': [24.868565448443523, 60.21584208286891], 'type': 'Point'}",1,0,0,0,0,0,5,19.3,53.0,0
+5fafe7f65143de9ede25a23e,coworking_space,Moonsoft Oy,"{'coordinates': [24.820141111789763, 60.179604502601016], 'type': 'Point'}",2,0,0,0,0,0,5,22.4,68.5,0
+5fafe7f65143de9ede25a23f,coworking_space,"Regus - Espoo, Life Science Centre","{'coordinates': [24.8343431, 60.1784878], 'type': 'Point'}",2,0,0,0,1,0,5,24.7,56.0,0
+5fafe7f65143de9ede25a240,coworking_space,AppSpace,"{'coordinates': [24.814756054717872, 60.187391079255605], 'type': 'Point'}",2,0,0,0,0,0,5,20.5,58.7,0
+5fafe7f65143de9ede25a241,coworking_space,VTT,"{'coordinates': [24.827815241182694, 60.18273489116602], 'type': 'Point'}",2,0,0,0,0,0,5,22.1,64.2,0
+5fafe7f65143de9ede25a242,coworking_space,RAY Digital HQ,"{'coordinates': [24.82888761252317, 60.21908048472001], 'type': 'Point'}",1,0,1,0,0,0,5,17.2,48.8,0
+5fafe7f65143de9ede25a243,coworking_space,Lassilanlinna,"{'coordinates': [24.880212816577195, 60.228313018857406], 'type': 'Point'}",1,0,0,0,0,0,5,14.0,32.5,0
+5fafe7f65143de9ede25a244,coworking_space,Talent Base,"{'coordinates': [24.804944, 60.189072], 'type': 'Point'}",2,0,0,0,0,0,5,22.3,65.0,0
+5fafe7f65143de9ede25a245,coworking_space,Hippostalo,"{'coordinates': [24.811269988660655, 60.2243747396333], 'type': 'Point'}",1,0,0,1,0,1,4,17.7,44.1,0
+5fafe7f65143de9ede25a246,coworking_space,Nuortenosasto Pointti,"{'coordinates': [24.80919823050499, 60.2178988073633], 'type': 'Point'}",1,0,0,1,0,0,4,20.1,42.1,0
+5fafe7f65143de9ede25a247,coworking_space,Ahti Business Park,"{'coordinates': [24.774798229336735, 60.16687086208483], 'type': 'Point'}",0,0,0,0,0,0,3,26.2,72.6,0
+5fafe7f65143de9ede25a248,coworking_space,Playmysong HQ,"{'coordinates': [24.92882944262788, 60.16580707548356], 'type': 'Point'}",31,0,1,11,0,1,5,27.9,47.0,0

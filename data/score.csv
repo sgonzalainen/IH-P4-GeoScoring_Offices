@@ -1,0 +1,70 @@
+_id,name,location,design_score,school_score,tech_score,starbucks_score,airport_score,party_score,vegan_score,basket_score,dog_score,total
+5fafe7f65143de9ede25a20e,Epicenter,"{'coordinates': [24.94577562322455, 60.169855303538235], 'type': 'Point'}",0,535,225,500,433.0,1935,100,10,0,3738.0
+5fafe7f65143de9ede25a21f,Terveystalo Piazza,"{'coordinates': [24.930631, 60.169916], 'type': 'Point'}",0,535,225,500,401.0,1935,100,10,0,3706.0
+5fafe7f65143de9ede25a220,Four Reasons,"{'coordinates': [24.929534196853634, 60.16878824355282], 'type': 'Point'}",0,535,225,500,392.0,1935,100,10,5,3702.0
+5fafe7f65143de9ede25a208,E28 Community,"{'coordinates': [24.931665377499726, 60.16578227131679], 'type': 'Point'}",300,535,225,0,345.0,1935,100,10,5,3455.0
+5fafe7f65143de9ede25a20b,Boksi,"{'coordinates': [24.93095672646299, 60.165065992768426], 'type': 'Point'}",300,535,225,0,310.99999999999994,1935,100,10,5,3421.0
+5fafe7f65143de9ede25a231,Animalia,"{'coordinates': [24.96720245289316, 60.18706386155517], 'type': 'Point'}",300,535,0,0,434.0,1935,100,10,0,3314.0
+5fafe7f65143de9ede25a204,Tiedekulma / Think Corner,"{'coordinates': [24.948465, 60.169746], 'type': 'Point'}",0,535,225,0,437.0,1935,100,10,0,3242.0
+5fafe7f65143de9ede25a210,Vuorikatu 6,"{'coordinates': [24.94719611248664, 60.17051588306732], 'type': 'Point'}",0,535,225,0,422.0,1935,100,10,0,3227.0
+5fafe7f65143de9ede25a20f,AmCham Finland Senate Square,"{'coordinates': [24.94733404211601, 60.16912696295596], 'type': 'Point'}",0,0,225,500,429.0,1935,100,10,0,3199.0
+5fafe7f65143de9ede25a206,Svensk Ungdom,"{'coordinates': [24.936771228051832, 60.169065405434615], 'type': 'Point'}",0,0,225,500,417.0,1935,100,10,0,3187.0
+5fafe7f65143de9ede25a211,MOW Mothership,"{'coordinates': [24.945400248998684, 60.16425510687367], 'type': 'Point'}",0,535,225,0,343.0,1935,100,10,5,3153.0
+5fafe7f65143de9ede25a248,Playmysong HQ,"{'coordinates': [24.92882944262788, 60.16580707548356], 'type': 'Point'}",0,535,225,0,351.0,1935,0,10,5,3061.0
+5fafe7f65143de9ede25a217,Demos,"{'coordinates': [24.94213388547235, 60.16017373556612], 'type': 'Point'}",300,535,0,0,272.0,1935,0,10,5,3057.0
+5fafe7f65143de9ede25a214,HUB13,"{'coordinates': [24.94848304781804, 60.17243371498041], 'type': 'Point'}",0,535,0,0,453.99999999999994,1935,100,10,0,3034.0
+5fafe7f65143de9ede25a225,HERO Helsingin erilaiset oppijat,"{'coordinates': [24.947776691942103, 60.17202724760491], 'type': 'Point'}",0,535,0,0,452.0,1935,100,10,0,3032.0
+5fafe7f65143de9ede25a207,p2s Media,"{'coordinates': [24.93465212805861, 60.16563260507134], 'type': 'Point'}",300,0,225,0,387.0,1935,100,10,5,2962.0
+5fafe7f65143de9ede25a22c,Verohallinto Vallila,"{'coordinates': [24.960679618116743, 60.19080338646422], 'type': 'Point'}",0,535,0,0,468.0,1935,0,10,0,2948.0
+5fafe7f65143de9ede25a209,Frame Graphics,"{'coordinates': [24.93476447487879, 60.16459195115057], 'type': 'Point'}",300,0,225,0,366.0,1935,100,10,5,2941.0
+5fafe7f65143de9ede25a227,Idealist Group,"{'coordinates': [24.92647088560934, 60.17396350052872], 'type': 'Point'}",0,535,0,0,365.00000000000006,1935,0,10,5,2850.0
+5fafe7f65143de9ede25a212,Maria 01,"{'coordinates': [24.92167130112648, 60.16668372126147], 'type': 'Point'}",0,535,0,0,333.99999999999994,1935,0,10,5,2819.0
+5fafe7f65143de9ede25a213,Vertical,"{'coordinates': [24.921392, 60.16671], 'type': 'Point'}",0,535,0,0,332.99999999999994,1935,0,10,5,2818.0
+5fafe7f65143de9ede25a20d,Helsingin Sanomat Kaupunkitoimitus,"{'coordinates': [24.938322962501214, 60.172382626601255], 'type': 'Point'}",0,0,225,0,445.0,1935,100,10,0,2715.0
+5fafe7f65143de9ede25a20c,Helsingin Sanomat News Desk,"{'coordinates': [24.938254295111477, 60.17232329053377], 'type': 'Point'}",0,0,225,0,438.0,1935,100,10,0,2708.0
+5fafe7f65143de9ede25a20a,HS.fi Dev HQ,"{'coordinates': [24.937962368130684, 60.17227313475555], 'type': 'Point'}",0,0,225,0,437.0,1935,100,10,0,2707.0
+5fafe7f65143de9ede25a221,"Spaces - Helsinki, Postitalo Spaces","{'coordinates': [24.9375, 60.1716], 'type': 'Point'}",0,0,225,0,432.0,1935,100,10,0,2702.0
+5fafe7f65143de9ede25a205,Spalt PR Helsinki,"{'coordinates': [24.95028953736944, 60.16783980586258], 'type': 'Point'}",0,0,225,0,428.0,1935,100,10,0,2698.0
+5fafe7f65143de9ede25a215,Sofia Future Farm,"{'coordinates': [24.951940382091532, 60.168609222203585], 'type': 'Point'}",0,0,0,0,414.0,1935,100,10,0,2459.0
+5fafe7f65143de9ede25a229,Wonderland,"{'coordinates': [24.949137791991234, 60.19122042845324], 'type': 'Point'}",0,0,0,0,486.0,1935,0,10,0,2431.0
+5fafe7f65143de9ede25a246,Nuortenosasto Pointti,"{'coordinates': [24.80919823050499, 60.2178988073633], 'type': 'Point'}",0,0,0,0,478.0,1935,0,10,0,2423.0
+5fafe7f65143de9ede25a245,Hippostalo,"{'coordinates': [24.811269988660655, 60.2243747396333], 'type': 'Point'}",0,0,0,0,458.99999999999994,1935,0,10,5,2409.0
+5fafe7f65143de9ede25a222,Toimisto,"{'coordinates': [24.945056483995177, 60.18204920230535], 'type': 'Point'}",300,535,0,0,426.99999999999994,0,100,10,0,1372.0
+5fafe7f65143de9ede25a21c,Milk+Chocolate HQ,"{'coordinates': [24.954822063446045, 60.174231556068015], 'type': 'Point'}",0,535,0,0,448.00000000000006,0,100,10,0,1093.0
+5fafe7f65143de9ede25a21b,xEdu - Education startup accelerator,"{'coordinates': [24.95248, 60.17552], 'type': 'Point'}",0,535,0,0,423.00000000000006,0,100,10,0,1068.0
+5fafe7f65143de9ede25a235,Kalasatama Urban Lab,"{'coordinates': [24.979255, 60.186446], 'type': 'Point'}",0,535,0,0,414.0,0,100,10,0,1059.0
+5fafe7f65143de9ede25a242,RAY Digital HQ,"{'coordinates': [24.82888761252317, 60.21908048472001], 'type': 'Point'}",0,535,0,0,412.00000000000006,0,0,10,0,957.0
+5fafe7f65143de9ede25a224,Yrityslinna,"{'coordinates': [24.941909345509753, 60.18304462259261], 'type': 'Point'}",0,535,0,0,387.0,0,0,10,0,932.0
+5fafe7f65143de9ede25a22e,Tiivistämö,"{'coordinates': [24.973114194529863, 60.187031152938474], 'type': 'Point'}",0,535,0,0,387.0,0,0,10,0,932.0
+5fafe7f65143de9ede25a216,Helsinki Business Hub,"{'coordinates': [24.921586753645016, 60.164256463761184], 'type': 'Point'}",0,535,0,0,341.0,0,0,10,5,891.0
+5fafe7f65143de9ede25a233,KVA Arkkitehdit Oy,"{'coordinates': [24.86673576867907, 60.161599099208715], 'type': 'Point'}",0,535,0,0,271.0,0,0,10,5,821.0
+5fafe7f65143de9ede25a21a,Deck,"{'coordinates': [24.93398666381836, 60.15828330324933], 'type': 'Point'}",0,535,0,0,256.0,0,0,10,5,806.0
+5fafe7f65143de9ede25a219,+Studio,"{'coordinates': [24.9345568557079, 60.1584359632645], 'type': 'Point'}",0,535,0,0,255.0,0,0,10,5,805.0
+5fafe7f65143de9ede25a218,Limudisko-Drottningholm,"{'coordinates': [24.93719458580017, 60.159404417297765], 'type': 'Point'}",0,535,0,0,228.99999999999997,0,0,10,5,779.0
+5fafe7f65143de9ede25a23b,A grid,"{'coordinates': [24.832544085145944, 60.18934895026581], 'type': 'Point'}",0,535,0,0,196.0,0,0,10,0,741.0
+5fafe7f65143de9ede25a234,Pasilan Vanhat Veturitallit,"{'coordinates': [24.93302159791547, 60.19521100319479], 'type': 'Point'}",0,0,0,0,500.0,0,100,10,0,610.0
+5fafe7f65143de9ede25a22a,Kesko Oyj,"{'coordinates': [24.96535035100234, 60.16687338843196], 'type': 'Point'}",300,0,0,0,291.00000000000006,0,0,10,0,601.0
+5fafe7f65143de9ede25a21d,Lapinlahden sairaala,"{'coordinates': [24.91312965515414, 60.16761966389723], 'type': 'Point'}",300,0,0,0,265.0,0,0,10,0,575.0
+5fafe7f65143de9ede25a232,Suomen Voimisteluliitto,"{'coordinates': [24.963888384064976, 60.20021136372133], 'type': 'Point'}",0,0,0,0,426.00000000000006,0,100,10,0,536.0
+5fafe7f65143de9ede25a230,Cloud Cuts Coop,"{'coordinates': [24.962682328803396, 60.19611263592966], 'type': 'Point'}",0,0,0,0,406.0,0,100,10,0,516.0
+5fafe7f65143de9ede25a239,Luovat,"{'coordinates': [24.936248056547537, 60.219113045037496], 'type': 'Point'}",0,0,0,0,500.0,0,0,10,0,510.0
+5fafe7f65143de9ede25a22f,Hupi Pasila,"{'coordinates': [24.934737902761086, 60.19850536514782], 'type': 'Point'}",0,0,0,0,500.0,0,0,10,0,510.0
+5fafe7f65143de9ede25a243,Lassilanlinna,"{'coordinates': [24.880212816577195, 60.228313018857406], 'type': 'Point'}",0,0,0,0,500.0,0,0,10,0,510.0
+5fafe7f65143de9ede25a237,MTV Filmihalli,"{'coordinates': [24.916608770254793, 60.20625889086879], 'type': 'Point'}",0,0,0,0,500.0,0,0,10,0,510.0
+5fafe7f65143de9ede25a236,NettiNorppa,"{'coordinates': [24.980556738601038, 60.21167045344716], 'type': 'Point'}",0,0,0,0,387.99999999999994,0,100,10,0,497.99999999999994
+5fafe7f65143de9ede25a23f,"Regus - Espoo, Life Science Centre","{'coordinates': [24.8343431, 60.1784878], 'type': 'Point'}",0,0,0,0,293.00000000000006,0,100,10,0,403.00000000000006
+5fafe7f65143de9ede25a21e,Sugar Bay Hub,"{'coordinates': [24.929123594631683, 60.18082934164832], 'type': 'Point'}",0,0,0,0,382.0,0,0,10,5,397.0
+5fafe7f65143de9ede25a23d,Kutomo Business Park,"{'coordinates': [24.868565448443523, 60.21584208286891], 'type': 'Point'}",0,0,0,0,370.0,0,0,10,0,380.0
+5fafe7f65143de9ede25a223,MOW Stargate,"{'coordinates': [24.90821054659648, 60.16397617431216], 'type': 'Point'}",0,0,0,0,341.0,0,0,10,0,351.0
+5fafe7f65143de9ede25a240,AppSpace,"{'coordinates': [24.814756054717872, 60.187391079255605], 'type': 'Point'}",0,0,0,0,307.99999999999994,0,0,10,0,317.99999999999994
+5fafe7f65143de9ede25a226,Kaapelitehdas,"{'coordinates': [24.904030837415977, 60.161832661449004], 'type': 'Point'}",0,0,0,0,297.0,0,0,10,0,307.0
+5fafe7f65143de9ede25a228,Casual Friday Studios,"{'coordinates': [24.903267107011892, 60.16165130648691], 'type': 'Point'}",0,0,0,0,290.00000000000006,0,0,10,0,300.00000000000006
+5fafe7f65143de9ede25a23a,Urban Mill,"{'coordinates': [24.832108573686398, 60.18072165243407], 'type': 'Point'}",0,0,0,0,275.0,0,0,10,0,285.0
+5fafe7f65143de9ede25a238,Startup Sauna,"{'coordinates': [24.83270812056055, 60.18078921653942], 'type': 'Point'}",0,0,0,0,268.99999999999994,0,0,10,0,278.99999999999994
+5fafe7f65143de9ede25a23c,Innovation House Finland,"{'coordinates': [24.823036673608065, 60.180476784851194], 'type': 'Point'}",0,0,0,0,264.0,0,0,10,0,274.0
+5fafe7f65143de9ede25a241,VTT,"{'coordinates': [24.827815241182694, 60.18273489116602], 'type': 'Point'}",0,0,0,0,237.0,0,0,10,0,247.0
+5fafe7f65143de9ede25a244,Talent Base,"{'coordinates': [24.804944, 60.189072], 'type': 'Point'}",0,0,0,0,226.99999999999997,0,0,10,0,236.99999999999997
+5fafe7f65143de9ede25a22b,Portti C / Gate C,"{'coordinates': [24.92115325198633, 60.15459624846862], 'type': 'Point'}",0,0,0,0,225.99999999999997,0,0,10,0,235.99999999999997
+5fafe7f65143de9ede25a22d,Eckerö Line,"{'coordinates': [24.920848013578677, 60.15451083370066], 'type': 'Point'}",0,0,0,0,223.99999999999997,0,0,10,0,233.99999999999997
+5fafe7f65143de9ede25a23e,Moonsoft Oy,"{'coordinates': [24.820141111789763, 60.179604502601016], 'type': 'Point'}",0,0,0,0,191.0,0,0,10,0,201.0
+5fafe7f65143de9ede25a247,Ahti Business Park,"{'coordinates': [24.774798229336735, 60.16687086208483], 'type': 'Point'}",0,0,0,0,112.00000000000004,0,0,10,0,122.00000000000004
