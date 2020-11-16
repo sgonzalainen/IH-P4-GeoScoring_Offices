@@ -4,6 +4,7 @@ from folium.plugins import HeatMap
 import pandas as pd
 from geopy import distance
 from folium import IFrame
+from folium import plugins
 
 def create_map(lat, lon, zoom_start = 10):
 
@@ -241,6 +242,23 @@ def locate_competitor(mymap, aux_col, competitor, lat, lon, ):
 
 
 
+
+def include_meas_control(mymap):
+    '''
+    adds a measure control to a Folium map
+    Args:
+         mymap(Folium map)
+
+    '''
+
+    measure_control = plugins.MeasureControl(position = 'topleft',
+                             active_color = 'red',
+                             completed_color = 'red',
+                             primary_length_unit= 'kilometers')
+
+    mymap.add_child(measure_control)
+
+    
 
 
 
