@@ -48,7 +48,7 @@ And these are the list of nice-to-haves:
 ### Venues Search
 First, I decided that I want to locate the brand new company in a **coworking space**. Therefore, I search in **Foursquare API** coworking spaces in Helsinki Area.
 
-I have used **Foursquare API**, **Google Places API** and **Google Maps API** to get data related to venues near all the coworking spaces.
+I have used **Foursquare API**, **Google Places API** and **Google Directions API** to get data related to venues near all the coworking spaces.
 
 ### Venues Scoring
 In order to avoid any bias at selecting the place, each venue will get a score based on the fulfillment of the nice-to-haves requirements listed above. The selected spot will be the one with more points.
