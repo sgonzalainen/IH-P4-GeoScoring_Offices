@@ -79,7 +79,7 @@ The rules for scoring is  as follows:
 
 
 # Result
-The winner coworking space is [this](https://weareepicenter.com/helsinki/), located at Helsinki city center. For more details, check `report.ipynb` within `output` folder (in order to see properly interactive maps, please render jupyter notebook [here](https://nbviewer.jupyter.org/)).
+The winner coworking space is [this](https://weareepicenter.com/helsinki/), located at Helsinki city center. For more details, check `report.ipynb` within `output` folder (in order to see properly interactive maps, you can see the rendered [here](https://nbviewer.jupyter.org/github/sgonzalainen/IronHack-Project4-GeoSpatialProject/blob/main/main.ipynb)).
 
 Examples of maps generated(here as image):
 
